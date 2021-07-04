@@ -1,4 +1,4 @@
-## Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+# Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
@@ -24,7 +24,7 @@
 | <img src="images/heart.png" width="40" height="40"> |
 
 
-# Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
+## Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
 
 ### С какими параметрами можно запустить тесты:
 
@@ -36,6 +36,9 @@
 * videoStorage (url address where you should get video)
 * threads (number of threads)
 Пример настроек перед запуском сборки в Jenkins:
+
+### Пример странички с выбором параметров сборки
+![alt "Выбор параметров"](./images/jenkinsParamsExample.png)
 
 ### Как запустить тесты из командной строки
 Запустить тесты с дефолтными параметрами:
@@ -52,8 +55,15 @@ gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hu
 ```bash
 allure serve build/allure-results
 ```
+## Прогоняются тесты в Selenoid https://selenoid.autotests.cloud/#/
+### Пример прогона теста в Selenoid
+![alt "Video from Selenoid"](./images/TestExample.gif "Video from Selenoid")
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+
+
+
+
+:world_map: <a target="_blank" href="https://www.linkedin.com/in/edubrovin/">linkedin</a><br/>
+:airplane: Telegram - @dubrowin
 
 
