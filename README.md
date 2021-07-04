@@ -18,13 +18,15 @@
 |:---------:|:--------:|
 | <img src="images/Allure Report.svg" width="40" height="40"> | <img src="images/Telegram.svg" width="40" height="40"> |
 
+Присыпаны щепоткой любви)
+| Любовь |
+|:---------:|
+| <img src="images/heart.png" width="40" height="40"> |
 
-2. Посмотреть, как эти ав
 
+# Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
 
-# USAGE examples
-
-### For run remote tests need fill remote.properties or to pass value:
+### С какими параметрами можно запустить тесты:
 
 * browser (default chrome)
 * browserVersion (default 89.0)
@@ -33,28 +35,22 @@
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
 * threads (number of threads)
+Пример настроек перед запуском сборки в Jenkins:
 
-
-Run tests with filled remote.properties:
+### Как запустить тесты из командной строки
+Запустить тесты с дефолтными параметрами:
 ```bash
 gradle clean test
 ```
 
-Run tests with not filled remote.properties:
+Запустить тесты с нужными нам параметрами:
 ```bash
 gradle clean -DremoteDriverUrl=https://user1:1234@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-Serve report:
+Сформировать отчет в Allure:
 ```bash
 allure serve build/allure-results
-```
-
-
-For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
 ```
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
