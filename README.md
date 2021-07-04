@@ -1,9 +1,23 @@
-**Автотесты на промо Торгового Эквайринга,** [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+## Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
 
-Здесь лежат несколько автотестов на промо Торгового Эквайринга, которые можно:
- 1. Запустить через Jenkins с нужными параметрами
+## Стек и инструменты
+ Тесты были написаны на Java + JUnit5 + Selenide + Gradle
 
-![](RackMultipart20210704-4-1ogdixv_html_647f7af01d36c80d.png)
+| Java | Gradle | Junit5 | Selenide |
+|:----:|:------:|:------:|:--------:|
+| <img src="images/JAVA.svg" width="40" height="40"> | <img src="images/Gradle.svg" width="40" height="40"> | <img src="images/Junit5.svg" width="40" height="40"> | <img src="images/Selenide.svg" width="40" height="40"> |
+
+Запускаются и прогоняются через Jenkins + Selenoid
+
+| Jenkins | Selenoid | 
+|:--------:|:-------------:|
+| <img src="images/Jenkins.svg" width="40" height="40"> | <img src="images/Selenoid.svg" width="40" height="40"> | 
+
+С отчетами в Allure + Telegram
+| Allure Report | Telegram |
+|:---------:|:--------:|
+| <img src="images/Allure Report.svg" width="40" height="40"> | <img src="images/Telegram.svg" width="40" height="40"> |
+
 
 2. Посмотреть, как эти ав
 
