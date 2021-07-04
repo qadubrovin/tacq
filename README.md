@@ -1,3 +1,12 @@
+**Автотесты на промо Торгового Эквайринга,** [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+
+Здесь лежат несколько автотестов на промо Торгового Эквайринга, которые можно:
+ 1. Запустить через Jenkins с нужными параметрами
+
+![](RackMultipart20210704-4-1ogdixv_html_647f7af01d36c80d.png)
+
+2. Посмотреть, как эти ав
+
 
 # USAGE examples
 
