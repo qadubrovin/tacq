@@ -60,9 +60,16 @@ allure serve build/allure-results
 ![alt "Video from Selenoid"](./images/TestExample.gif "Video from Selenoid")
 
 
+## После прогона формируется отчет в Allure
+![alt "Выбор параметров"](./images/AllureNotifications.png)
+c такими полезными аттачами, как логи, скриншоты и видео прохождения каждого теста
+![alt "Выбор параметров"](./images/Attachments.png)
+
+## И в Telegram отправляется уведомление с результатами
+![alt "Выбор параметров"](./images/TelegramNotifications.png)
 
 
-
+## Контакты
 :world_map: <a target="_blank" href="https://www.linkedin.com/in/edubrovin/">linkedin</a><br/>
 :airplane: Telegram - @dubrowin
 
