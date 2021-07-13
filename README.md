@@ -1,4 +1,4 @@
-# Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+# Автотесты на **сайт Fun Corp**, [**https://fun.co/**](https://fun.co/)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
@@ -24,12 +24,12 @@
 | <img src="images/heart.png" width="40" height="40"> |
 
 
-## Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
+## Запуск через Jenkins https://jenkins.autotests.cloud/job/funcorp/
 
 ### С какими параметрами можно запустить тесты:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 90.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
@@ -67,6 +67,8 @@ c такими полезными аттачами, как логи, скрин�
 
 ## И в Telegram отправляется уведомление с результатами
 ![alt "Выбор параметров"](./images/TelegramNotifications.png)
+
+чат с отчетами: https://t.me/joinchat/YRQ-DUruREBmMjli
 
 
 ## Контакты
