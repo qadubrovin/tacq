@@ -1,4 +1,4 @@
-# Автотесты на **сайт Fun Corp**, [**https://fun.co/**](https://fun.co/)
+# Автотесты на **промо Тинькофф Бизнес**, [**https://www.tinkoff.ru/business/**](https://www.tinkoff.ru/business/)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
@@ -24,7 +24,7 @@
 | <img src="images/heart.png" width="40" height="40"> |
 
 
-## Запуск через Jenkins https://jenkins.autotests.cloud/job/funcorp/
+## Запуск через Jenkins https://jenkins.autotests.cloud/job/tacq/
 
 ### С какими параметрами можно запустить тесты:
 
@@ -67,8 +67,6 @@ c такими полезными аттачами, как логи, скрин�
 
 ## И в Telegram отправляется уведомление с результатами
 ![alt "Выбор параметров"](./images/TelegramNotifications.png)
-
-чат с отчетами: https://t.me/joinchat/YRQ-DUruREBmMjli
 
 
 ## Контакты
