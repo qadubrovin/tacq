@@ -1,4 +1,4 @@
-# Автотесты на **промо Торгового Эквайринга**, [**https://www.tinkoff.ru/business/acquiring/**](https://www.tinkoff.ru/business/acquiring/)
+# Автотесты на **промо Тинькофф Бизнес**, [**https://www.tinkoff.ru/business/**](https://www.tinkoff.ru/business/)
 
 ## Стек и инструменты
  Тесты были написаны на Java + JUnit5 + Selenide + Gradle
@@ -29,7 +29,7 @@
 ### С какими параметрами можно запустить тесты:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 90.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
@@ -60,9 +60,16 @@ allure serve build/allure-results
 ![alt "Video from Selenoid"](./images/TestExample.gif "Video from Selenoid")
 
 
+## После прогона формируется отчет в Allure
+![alt "Выбор параметров"](./images/AllureNotifications.png)
+c такими полезными аттачами, как логи, скриншоты и видео прохождения каждого теста
+![alt "Выбор параметров"](./images/Attachments.png)
+
+## И в Telegram отправляется уведомление с результатами
+![alt "Выбор параметров"](./images/TelegramNotifications.png)
 
 
-
+## Контакты
 :world_map: <a target="_blank" href="https://www.linkedin.com/in/edubrovin/">linkedin</a><br/>
 :airplane: Telegram - @dubrowin
 
