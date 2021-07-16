@@ -65,6 +65,9 @@ allure serve build/allure-results
 c такими полезными аттачами, как логи, скриншоты и видео прохождения каждого теста
 ![alt "Выбор параметров"](./images/Attachments.png)
 
+## Также хранятся тесты и формируется отчет в AllureTestOps(система хранения тестов, вроде TestRail)
+![alt "AllureTestOps"](./images/AllureTestOps.png)
+
 ## И в Telegram отправляется уведомление с результатами
 ![alt "Выбор параметров"](./images/TelegramNotifications.png)
 
